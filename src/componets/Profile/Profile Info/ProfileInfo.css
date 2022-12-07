@@ -1,0 +1,44 @@
+.addPhoto {
+  position: absolute;
+  right: -139px;
+  display: none;
+  top: 0;
+}
+.addPhotoActive {
+  display: block;
+}
+
+.profile-contacts {
+  display: flex;
+  margin-left: 20px;
+}
+.contacts-item {
+  margin-left: 15px;
+  line-height: 23px;
+}
+
+.contacts-name {
+  width: 63px;
+}
+.contact-wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form {
+  display: flex;
+  font-weight: bold;
+}
+.MyTextInput {
+  width: 682px;
+  margin-left: auto;
+}
+.error {
+  position: absolute;
+  margin-left: 317px;
+  color: #fff700;
+}
+
+.int{
+  width: 500px;
+}

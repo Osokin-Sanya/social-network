@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAQ;CAClC",
+    "sources": [
+        "Dialogs.scss"
+    ],
+    "names": [],
+    "file": "Dialogs.css"
+}

@@ -1,0 +1,27 @@
+.userIcon img {
+  width: 69px;
+}
+
+.userblock {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+.userInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+}
+
+.set-name{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.sad1{
+    color: red;
+    font-weight: bold;
+    
+}
+span{
+    cursor: pointer;
+}
+

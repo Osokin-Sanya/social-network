@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.css {
+  background-color: aqua;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.logImg {
+  width: 84px;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "h h " "n c ";
+  -ms-grid-rows: 60px 1fr;
+      grid-template-rows: 60px 1fr;
+  -ms-grid-columns: 2fr 10fr;
+      grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.wrapper .header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: h;
+}
+
+.wrapper nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: n;
+}
+
+.wrapper .app-wrapper-content {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: c;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,13 @@
+.profile {
+  color: black;
+  background-color: #ae00ff;
+  grid-area: c;
+}
+
+.profile img {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+/*# sourceMappingURL=Profile.css.map */

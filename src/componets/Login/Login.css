@@ -1,0 +1,7 @@
+.navLogin {
+  text-decoration: none;
+}
+
+.input-touched {
+  border-color: red;
+}

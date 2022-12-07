@@ -1,0 +1,38 @@
+ *{
+   color: black;
+ }
+
+.App {
+  text-align: center;
+}
+
+.css {
+  background-color: aqua;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+.logImg {
+  width: 84px;
+}
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "h h "
+    "n c ";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+
+  .header {
+    grid-area: h;
+  }
+  nav {
+    grid-area: n;
+  }
+  .app-wrapper-content {
+    grid-area: c;
+  }
+    
+}

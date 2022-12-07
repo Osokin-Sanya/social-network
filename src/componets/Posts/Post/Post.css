@@ -1,0 +1,12 @@
+.post {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0fr 1fr;
+      grid-template-columns: 0fr 1fr;
+}
+
+.post .post__img {
+  width: 35px;
+  height: 35px;
+}
+/*# sourceMappingURL=Post.css.map */
