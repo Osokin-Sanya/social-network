@@ -4,16 +4,16 @@ import { connect } from "react-redux";
 import { Provider } from "react-redux";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import store from "./redux/redux-store";
-import { getLogin } from "./redux/login-reduser";
-import Header from "./componets/Header/Header";
-import Navbar from "./componets/Navbar/Navbar";
+import { getLogin } from "./redux/login-reducer";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
 import ProfileContainer, {
   withRouter,
-} from "./componets/Profile/ProfileContainer";
-import LoginPageContainer from "./componets/Login/login Page/LoginPageContainer";
+} from "./components/Profile/ProfileContainer";
+import LoginPageContainer from "./components/Login/login Page/LoginPageContainer";
 
 import { initializationAPP } from "./redux/app-reduser";
-import Preloader from "./componets/common/Loader/Preloader";
+import Preloader from "./components/common/Loader/Preloader";
 
 import "./App.css";
 class App extends Component {
@@ -24,11 +24,11 @@ class App extends Component {
     if (!this.props.initApp) return <Preloader />;
 
     const DialogsContainer = lazy(() =>
-      import("./componets/Dialogs/DialogsContainer")
+      import("./components/Dialogs/DialogsContainer")
     );
 
     const UsersContainer = lazy(() =>
-      import("./componets/Users/UsersContainer")
+      import("./components/Users/UsersContainer")
     );
 
     // window.onerror = function (message, url, line, col, error) {

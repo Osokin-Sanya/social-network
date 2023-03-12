@@ -49,7 +49,6 @@ let store = {
     return this._state;
   },
   subscribe(observer) {
-    // почитать про замыкание
     this._callSubscriber = observer;
   },
   // _callFn: () => { },
@@ -57,7 +56,7 @@ let store = {
     this._state.postData = profileReduser(this._state.postData, action);
     this._state.massagesPage = dialogReduser(this._state.massagesPage, action);
     // this._state.friends = friendsReduser(this._state.friends, action);
-    this._callSubscriber(this._state); // что способствует ререндерингу
+    this._callSubscriber(this._state);
   },
 };
 

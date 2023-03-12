@@ -1,4 +1,4 @@
-import { getLogin } from "./login-reduser";
+import { getLogin } from "./login-reducer";
 
 const INIT_APP = "INIT_APP";
 

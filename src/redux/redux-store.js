@@ -1,8 +1,8 @@
 import { combineReducers, legacy_createStore, applyMiddleware } from "redux";
-import dialogReduser from "./dialog-reduser";
-import { usersReduser } from "./users-reduser";
-import profileReduser from "./profile-reduser";
-import loginReduser from "./login-reduser";
+import dialogReduser from "./dialog-reducer";
+import { usersReduser } from "./users-reducer";
+import profileReduser from "./profile-reducer";
+import loginReduser from "./login-reducer";
 
 import thunk from "redux-thunk";
 import appReduser from "./app-reduser";
